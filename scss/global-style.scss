@@ -1,25 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
+    color: $textColor;
+
     @media only screen and (min-width: $size-sm) {
-      font-size: 16px;
+        font-size: 16px;
     }
+
     @media only screen and (min-width: $size-md) {
         font-size: 20px;
     }
+
     @media only screen and (min-width: $size-lg) {
         font-size: 24px;
     }
 }
+
 .main-cv {
     width: 100%;
+    margin: 0 auto;
+
+
     @media only screen and (min-width: $size-sm) {
         width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
     }
+
     @media only screen and (min-width: $size-md) {
         width: 100%;
+        padding-right: 24px;
+        padding-left: 24px;
+
     }
+
     @media only screen and (min-width: $size-lg) {
         width: 100%;
+        max-width: 1280px;
     }
 }

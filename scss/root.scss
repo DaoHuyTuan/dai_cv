@@ -2,5 +2,9 @@
 @import "./reset.scss";
 @import "./global-style.scss";
 
+// module css
+@import "./atoms/atoms.scss";
+
 // block scss
 @import "./info-block/style.scss";
+@import "./tech-block/style.scss";

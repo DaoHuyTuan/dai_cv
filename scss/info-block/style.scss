@@ -1,28 +1,69 @@
 .main-cv-info {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    background-color: #ddd;
-    &_main {
-        width: 800px;
-        height: 500px;
-        display:flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
         justify-content: center;
         align-items: center;
+        flex-flow: row;
+
+        @media only screen and (max-width: $size-md) {
+            flex-flow: column;
+        }
+    }
+
+    & .bg-header {
+        flex: 1;
+        order: 2;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        @media only screen and (max-width: $size-md) {
+            order: 1;
+            margin-bottom: 2rem;
+
+        }
+    }
+
+    &--bg {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    & .info-group {
+        order: 1;
+        flex: 1;
+        display: flex;
         flex-flow: column;
+
+        @media only screen and (max-width: $size-md) {
+            order: 2;
+            text-align: center;
+            align-items: center;
+
+        }
     }
-    &--avatar {
-        width: 300px;
-        height: 300px;
-        border-radius: 100%;
-        margin-bottom: 2rem;
-    }
+
     &--title {
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: bold;
+        margin-bottom: 1.25rem;
     }
+
     &--subtitle {
         font-size: 1rem;
+        margin-bottom: 1rem;
+        width: 70%;
+        line-height: 1.75rem;
+
+        @media only screen and (max-width: $size-md) {
+            width: 100%;
+        }
     }
 
 }

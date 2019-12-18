@@ -1,0 +1,9 @@
+.block-title {
+    font-size: 2rem;
+
+    &.left {
+        position: absolute;
+        top: -70px;
+        right: 0;
+    }
+}
