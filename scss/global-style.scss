@@ -1,0 +1,25 @@
+html {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    @media only screen and (min-width: $size-sm) {
+      font-size: 16px;
+    }
+    @media only screen and (min-width: $size-md) {
+        font-size: 20px;
+    }
+    @media only screen and (min-width: $size-lg) {
+        font-size: 24px;
+    }
+}
+.main-cv {
+    width: 100%;
+    @media only screen and (min-width: $size-sm) {
+        width: 100%;
+    }
+    @media only screen and (min-width: $size-md) {
+        width: 100%;
+    }
+    @media only screen and (min-width: $size-lg) {
+        width: 100%;
+    }
+}

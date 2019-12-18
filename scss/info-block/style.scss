@@ -1,0 +1,28 @@
+.main-cv-info {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #ddd;
+    &_main {
+        width: 800px;
+        height: 500px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+    }
+    &--avatar {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        margin-bottom: 2rem;
+    }
+    &--title {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    &--subtitle {
+        font-size: 1rem;
+    }
+
+}
