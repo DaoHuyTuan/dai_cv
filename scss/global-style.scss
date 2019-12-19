@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
 }
-
 html {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -23,7 +22,8 @@ html {
 .main-cv {
     width: 100%;
     margin: 0 auto;
-
+    padding-right: 14px;
+    padding-left: 14px;
 
     @media only screen and (min-width: $size-sm) {
         width: 100%;
@@ -40,6 +40,6 @@ html {
 
     @media only screen and (min-width: $size-lg) {
         width: 100%;
-        max-width: 1280px;
+        max-width: $size-lg;
     }
 }

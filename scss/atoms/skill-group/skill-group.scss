@@ -2,19 +2,21 @@
     display: flex;
     flex-flow: row;
     margin-bottom: 24px;
-
+    flex-wrap: wrap;
     & .skill-block {
         display: flex;
         align-items: center;
-        margin-right: 20px;
-        padding: 10px;
-
+        margin-right: 0.4rem;
+        cursor: pointer;
+        padding-top: 0.5rem;
         &__img {
             margin-right: 10px;
-            width: 50px;
-            height: 50px;
+            width: 2rem;
+            height: 2rem;
         }
 
-        &__name {}
+        &__name {
+            font-size: 0.7rem;
+        }
     }
 }

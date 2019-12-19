@@ -2,4 +2,20 @@
     display: flex;
     position: relative;
     flex-flow: column;
+    margin-bottom: 3rem;
+    &_container {
+        display: flex;
+        flex-flow: row;
+    }
+    &_careerPath {
+        flex: 1.5;
+        font-size: 0.7rem;
+        display: flex;
+        flex-flow: column;
+        justify-content:center;
+        line-height:1.5rem;
+    }
+    &_skill {
+        flex: 1;
+    }
 }
