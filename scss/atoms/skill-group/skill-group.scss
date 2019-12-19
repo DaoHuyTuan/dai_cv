@@ -1,18 +1,24 @@
 .skill-group {
     display: flex;
     flex-flow: row;
-    margin-bottom: 24px;
+    margin-bottom: 2rem;
     flex-wrap: wrap;
+
+    &:last-child {
+        margin-bottom: unset;
+    }
+
     & .skill-block {
         display: flex;
         align-items: center;
         margin-right: 0.4rem;
         cursor: pointer;
         padding-top: 0.5rem;
+
         &__img {
             margin-right: 10px;
-            width: 2rem;
-            height: 2rem;
+            width: 1.5rem;
+            height: 1.5rem;
         }
 
         &__name {

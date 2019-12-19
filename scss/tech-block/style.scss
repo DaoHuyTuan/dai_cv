@@ -3,19 +3,38 @@
     position: relative;
     flex-flow: column;
     margin-bottom: 3rem;
+
     &_container {
         display: flex;
         flex-flow: row;
     }
+
     &_careerPath {
         flex: 1.5;
         font-size: 0.7rem;
         display: flex;
         flex-flow: column;
-        justify-content:center;
-        line-height:1.5rem;
+        justify-content: flex-start;
+        line-height: 1.7rem;
+        margin-bottom: 1rem;
+
+
     }
+
     &_skill {
         flex: 1;
+        position: relative;
+        padding: 1rem;
+        border-radius: 10px;
+        transition: 0.5s;
+        box-shadow: 0px 0px 4px 0px #c2c2c2;
+        display: flex;
+        flex-flow: column;
+        cursor: pointer;
+        justify-content: center;
+
+        &:hover {
+            box-shadow: 0px 0px 16px 4px #dddddd96;
+        }
     }
 }
