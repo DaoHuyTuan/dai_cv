@@ -1,0 +1,20 @@
+.skill-group {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 24px;
+
+    & .skill-block {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        padding: 10px;
+
+        &__img {
+            margin-right: 10px;
+            width: 50px;
+            height: 50px;
+        }
+
+        &__name {}
+    }
+}

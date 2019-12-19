@@ -1,29 +1,5 @@
 .main-cv__tech {
     display: flex;
-    background-color: #ffdc6a;
     position: relative;
-    margin-bottom: 200px;
-    padding: 2rem;
-    border-radius: 20px;
-
-    &_container {
-        height: 600px;
-        display: flex;
-        align-items: center;
-    }
-
-    &--avatar {
-        margin-right: 1.5rem;
-
-        & .img-avatar {
-            width: 17rem;
-            height: 17rem;
-        }
-    }
-
-    &--content {
-        height: 17rem;
-    }
-
-
+    flex-flow: column;
 }

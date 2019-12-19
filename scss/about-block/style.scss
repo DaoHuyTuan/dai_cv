@@ -1,0 +1,28 @@
+.main-cv__about {
+    display: flex;
+    position: relative;
+    padding: 2rem;
+    border-radius: 20px;
+    flex-flow: column;
+
+    &_container {
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+
+    &--avatar {
+        margin-right: 1.5rem;
+
+        & .img-avatar {
+            width: 17rem;
+            height: 17rem;
+        }
+    }
+
+    &--content {
+        height: 17rem;
+    }
+
+
+}
