@@ -11,6 +11,7 @@
         flex-flow: row;
         margin-bottom: 3rem;
         margin-top: 3rem;
+
         @media only screen and (max-width: $size-md) {
             flex-flow: column;
         }
@@ -41,40 +42,51 @@
         display: flex;
         flex-flow: column;
         text-align: center;
-        align-items:center;
+        align-items: center;
+
         & .social-network {
             text-align: center;
+
             & .social-icon {
                 cursor: pointer;
-                margin-right: 1rem;
+
+
                 &:last-child {
                     margin-right: unset;
                 }
             }
+
+            & .social-link {
+                text-decoration: none;
+                margin-right: 1rem;
+            }
         }
-        & .img-avatar_wrapper{
+
+        & .img-avatar_wrapper {
             width: 9rem;
             height: 9rem;
             border-radius: 100%;
             border: 1px solid #ddd;
-            display:flex;
-            align-items:center;
+            display: flex;
+            align-items: center;
             justify-content: center;
             margin-bottom: 1.5rem;
+
             & .img-avatar {
                 border-radius: 100%;
                 width: 7rem;
                 height: 7rem;
-                
+
             }
         }
-        
+
         @media only screen and (max-width: $size-md) {
             order: 2;
             text-align: center;
             align-items: center;
             justify-content: center;
         }
+
         @media only screen and (max-width: $size-sm) {
             order: 2;
             text-align: center;
