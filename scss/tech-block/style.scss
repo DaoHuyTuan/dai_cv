@@ -4,9 +4,15 @@
     flex-flow: column;
     margin-bottom: 3rem;
 
+
+
     &_container {
         display: flex;
         flex-flow: row;
+
+        @media only screen and (max-width: $size-md) {
+            flex-flow: column;
+        }
     }
 
     &_careerPath {
@@ -32,6 +38,17 @@
         flex-flow: column;
         cursor: pointer;
         justify-content: center;
+
+        @media only screen and (max-width: $size-md) {
+            box-shadow: unset;
+            cursor: unset;
+            padding-left: 0px;
+            padding-right: 0px;
+
+            &:hover {
+                box-shadow: unset !important;
+            }
+        }
 
         &:hover {
             box-shadow: 0px 0px 16px 4px #dddddd96;
